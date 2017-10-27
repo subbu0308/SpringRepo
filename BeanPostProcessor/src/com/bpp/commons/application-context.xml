@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="ebook" class = "com.bpp.beans.Ebook">
+	<property name="bookId" value = "10"/>
+	<property name="title" value="let us c"/>
+	<property name="size" value="100"/>
+</bean>
+<bean id="video" class="com.bpp.beans.Video">
+	<property name="videoId" value="533"/>
+	<property name="title" value="JAVA JEE"/>
+	<property name="length" value="10"/>
+</bean>
+<bean id="trackBPP" class="com.bpp.beans.TrackBeanPostProcessor"></bean>
+</beans>
